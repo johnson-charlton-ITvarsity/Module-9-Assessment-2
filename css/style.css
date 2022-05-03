@@ -1,0 +1,41 @@
+body{
+    font-family:  "Raleway", sans-serif;
+    background-color: #09090908;
+}
+
+#local{
+    width: 100%;
+    background-color: #0022ff;
+    padding: 15px 0px;
+    margin: 0;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+#cities{
+    border-collapse:separate;
+    padding:20px 200px 20px 200px;
+    width: 100%;
+    text-align: center;
+}
+
+#cities td{
+    border: 1px dotted #8ab0d6;
+    padding: 10px;
+}
+
+#cities tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.col1{
+    width: 20%;
+    text-align: center;
+}
+
+.col2{
+    width: 40%;
+}
